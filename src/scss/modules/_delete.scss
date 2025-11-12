@@ -1,0 +1,86 @@
+.text-delete {
+  color: var(--black);
+  text-align: center;
+  font-family: Bangers;
+  font-size: 36px;
+}
+
+.red {
+  width: 42.542px;
+  height: 15.208px;
+  background: var(--red);
+  mix-blend-mode: multiply;
+}
+
+.white {
+  width: 42.542px;
+  height: 15.208px;
+  background: var(--white);
+  mix-blend-mode: soft-light;
+}
+
+.dark-blue {
+  width: 42.542px;
+  height: 15.208px;
+  background: var(--darkblue);
+  mix-blend-mode: multiply;
+}
+
+.light-blue {
+  width: 286px;
+  height: 15.208px;
+  background: var(--lightblue);
+  mix-blend-mode: multiply;
+}
+
+.light-white {
+  display: flex;
+  max-width: fit-content;
+  padding: 22.253px;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid var(--black);
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--black);
+  text-align: center;
+  font-family: Bangers;
+  font-size: 28.484px;
+}
+
+.top-delete-visual {
+  display: flex;
+  max-width: fit-content;
+  align-items: center;
+  border-top: 4.451px solid var(--black);
+  border-left: 4.451px solid var(--black);
+  border-right: 4.451px solid var(--black);
+}
+
+.delete-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-barre {
+  margin-top: 51px;
+  width: 1064px;
+  height: 13px;
+  background: #7ebdeb;
+  display: flex;
+  align-items: center;
+}
+
+.barre {
+  width: 533.358px;
+  height: 9px;
+  background: var(--black);
+}
+
+.pourcentage {
+  color: var(--black);
+  text-align: center;
+  font-family: Bangers;
+  font-size: 36px;
+  margin-top: 15px;
+}
