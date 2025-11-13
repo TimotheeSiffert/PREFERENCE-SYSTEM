@@ -61,7 +61,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 22px;
-  border: 3.82px solid var(--black);
+  border: 2px solid var(--black);
   background: var(--yellow);
   color: var(--black);
   font-family: "backwards-black";
@@ -69,4 +69,10 @@
   letter-spacing: -0.9px;
   text-transform: uppercase;
   margin-top: 9px;
+  transition: 0.5s;
+}
+
+.print-book-button:hover {
+  box-shadow: 0 6px 0 0 #000;
+  cursor: pointer;
 }
