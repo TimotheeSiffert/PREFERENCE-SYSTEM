@@ -131,7 +131,7 @@ gsap.to(".bubble-left", {
   scrollTrigger: {
     trigger: ".bubble-left",
     scrub: true,
-    start: "top center",
+    start: "center center",
     end: "bottom top",
   },
 });
@@ -142,18 +142,7 @@ gsap.to(".bubble-right", {
   scrollTrigger: {
     trigger: ".bubble-right",
     scrub: true,
-    start: "top center",
-    end: "bottom top",
-  },
-});
-
-gsap.to(".buy-button", {
-  y: 50,
-  duration: 3,
-  scrollTrigger: {
-    trigger: ".buy-button",
-    scrub: true,
-    start: "center top",
+    start: "center center",
     end: "bottom top",
   },
 });
@@ -170,13 +159,14 @@ gsap.to(".title", {
 });
 
 gsap.to(".bubble-middle", {
-  y: -60,
+  y: -20,
   duration: 3,
+  opacity: 1,
   scrollTrigger: {
     trigger: ".bubble-middle",
     scrub: true,
-    start: "top bottom",
-    end: "bottom top",
+    start: "top center",
+    end: "top top",
   },
 });
 
@@ -186,7 +176,194 @@ gsap.to(".img-middle", {
   scrollTrigger: {
     trigger: ".img-middle",
     scrub: true,
+    start: "center bottom",
+    end: "bottom top",
+  },
+});
+
+gsap.to(".bubble1", {
+  y: -40,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".bubble1",
+    scrub: true,
+    start: "bottom bottom",
+    end: "bottom center",
+  },
+});
+
+gsap.to(".img1", {
+  y: -150,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".img1",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom center",
+  },
+});
+
+gsap.to(".bubble2", {
+  y: -150,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".bubble2",
+    scrub: true,
+    start: "bottom bottom",
+    end: "bottom center",
+  },
+});
+
+gsap.to(".img2", {
+  y: -200,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".img2",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom center",
+  },
+});
+
+gsap.to(".bubble3", {
+  y: 50,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".bubble3",
+    scrub: true,
+    start: "bottom bottom",
+    end: "bottom top",
+  },
+});
+
+gsap.to(".img3", {
+  y: -250,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".img3",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom center",
+  },
+});
+
+gsap.to(".img4", {
+  y: -170,
+  duration: 3,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".img4",
+    scrub: true,
+    start: "bottom bottom",
+    end: "bottom center",
+  },
+});
+gsap.to(".bubble4", {
+  y: -50,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".bubble4",
+    scrub: true,
     start: "top bottom",
     end: "bottom top",
+  },
+});
+
+gsap.to(".img5", {
+  y: -140,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".img5",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom center",
+  },
+});
+
+gsap.to(".img6", {
+  y: -90,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".img6",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom center",
+  },
+});
+gsap.to(".img7", {
+  y: -150,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".img7",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom center",
+  },
+});
+gsap.to(".bubble5", {
+  y: -10,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".bubble5",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom top",
+  },
+});
+gsap.to(".img8", {
+  y: -70,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".img8",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom center",
+  },
+});
+
+gsap.to(".bubble6", {
+  y: -210,
+  duration: 3,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".bubble6",
+    scrub: true,
+    start: "top bottom",
+    end: "bottom center",
+  },
+});
+
+gsap.to(".bubble-alone-img", {
+  y: -150,
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".bubble-alone-img",
+    scrub: true,
+    start: "bottom bottom",
+    end: "center center",
+  },
+});
+
+gsap.to(".book-img", {
+  duration: 1,
+  opacity: 1,
+  scrollTrigger: {
+    trigger: ".book-img",
+    scrub: true,
+    start: "center bottom",
+    end: "center center",
   },
 });
