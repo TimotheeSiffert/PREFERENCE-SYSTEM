@@ -33,3 +33,19 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: "backwards-black";
+  src: url("../fonts/backwards-title.woff") format("woff"),
+    url("../fonts/backwards-title.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "backwards-thin";
+  src: url("../fonts/backwards-thin.woff") format("woff"),
+    url("../fonts/backwards-thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}

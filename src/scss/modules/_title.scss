@@ -1,11 +1,12 @@
 .title {
   color: var(--white);
-  font-family: "backwards-black";
+  font-family: backwards-black;
   font-size: 145px;
   letter-spacing: -7px;
   text-transform: uppercase;
   text-align: center;
   padding-top: 138px;
+  opacity: 1;
 }
 
 .title-content {
@@ -28,18 +29,19 @@
   background: var(--yellow);
   color: var(--black);
   text-align: center;
-  font-family: "backwards-black";
+  font-family: backwards-black;
   font-size: 23.836px;
   letter-spacing: -1px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  transition: 0.9s;
+  transition: 0.7s;
 }
 
 .buy-button:hover {
   box-shadow: 0 7px 0 0 #000;
   cursor: pointer;
+  transform: translateY(-7px);
 }
 
 .title-images {

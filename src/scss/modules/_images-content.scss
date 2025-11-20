@@ -1,42 +1,50 @@
 .bubble1 {
   margin-bottom: 84px;
   opacity: 0;
+  rotate: 12deg;
 }
 
 .bubble2 {
   margin-top: (-60px);
   margin-bottom: 73px;
   opacity: 0;
+  rotate: -10deg;
 }
 
 .bubble3 {
   margin-top: -35px;
   width: 70%;
   opacity: 0;
+  rotate: 15deg;
 }
 
 .img1 {
   opacity: 0;
+  rotate: 7deg;
 }
 
 .img2 {
   opacity: 0;
+  rotate: 7deg;
 }
 
 .img3 {
   margin-top: -45px;
   opacity: 0;
+  rotate: -7deg;
 }
 
 .img4 {
   margin-top: -35px;
   width: 100%;
   opacity: 0;
+  rotate: 7deg;
 }
 
 .bubble4 {
   margin-top: -8px;
   opacity: 0;
+  rotate: 15deg;
 }
 
 .img5 {
@@ -44,6 +52,7 @@
   position: relative;
   z-index: 2;
   opacity: 0;
+  rotate: -10deg;
 }
 
 .img6 {
@@ -51,6 +60,11 @@
   position: relative;
   z-index: 1;
   opacity: 0;
+  rotate: 9deg;
+}
+
+.img7 {
+  rotate: -10deg;
 }
 
 .img-bubble {
@@ -62,9 +76,15 @@
   margin-top: -140px;
   margin-left: 50px;
   opacity: 0;
+  rotate: 9deg;
 }
 
 .bubble6 {
   margin-top: 100px;
   opacity: 0;
+  rotate: -15deg;
+}
+
+.bubble5 {
+  rotate: 15deg;
 }

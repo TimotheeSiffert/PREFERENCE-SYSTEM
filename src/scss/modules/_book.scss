@@ -68,11 +68,12 @@
   font-size: 18px;
   letter-spacing: -0.9px;
   text-transform: uppercase;
-  margin-top: 9px;
-  transition: 0.5s;
+  margin-top: 20px;
+  transition: 0.7s;
 }
 
 .print-book-button:hover {
   box-shadow: 0 6px 0 0 #000;
   cursor: pointer;
+  transform: translateY(-7px);
 }

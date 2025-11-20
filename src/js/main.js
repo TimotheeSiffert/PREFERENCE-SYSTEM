@@ -128,6 +128,7 @@ gsap.to(".middle-img", {
 gsap.to(".bubble-left", {
   y: -220,
   duration: 3,
+  rotate: -15,
   scrollTrigger: {
     trigger: ".bubble-left",
     scrub: true,
@@ -139,6 +140,7 @@ gsap.to(".bubble-left", {
 gsap.to(".bubble-right", {
   y: -220,
   duration: 3,
+  rotate: 15,
   scrollTrigger: {
     trigger: ".bubble-right",
     scrub: true,
@@ -150,6 +152,7 @@ gsap.to(".bubble-right", {
 gsap.to(".title", {
   y: -100,
   duration: 3,
+  rotate: -3,
   scrollTrigger: {
     trigger: ".title",
     scrub: true,
@@ -159,7 +162,7 @@ gsap.to(".title", {
 });
 
 gsap.to(".bubble-middle", {
-  y: -20,
+  y: -40,
   duration: 3,
   opacity: 1,
   scrollTrigger: {
@@ -173,6 +176,7 @@ gsap.to(".bubble-middle", {
 gsap.to(".img-middle", {
   y: 150,
   duration: 3,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img-middle",
     scrub: true,
@@ -185,11 +189,12 @@ gsap.to(".bubble1", {
   y: -40,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".bubble1",
     scrub: true,
     start: "bottom bottom",
-    end: "bottom center",
+    end: "top top",
   },
 });
 
@@ -197,6 +202,7 @@ gsap.to(".img1", {
   y: -150,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img1",
     scrub: true,
@@ -209,6 +215,7 @@ gsap.to(".bubble2", {
   y: -150,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".bubble2",
     scrub: true,
@@ -221,6 +228,7 @@ gsap.to(".img2", {
   y: -200,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img2",
     scrub: true,
@@ -233,6 +241,7 @@ gsap.to(".bubble3", {
   y: 50,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".bubble3",
     scrub: true,
@@ -245,6 +254,7 @@ gsap.to(".img3", {
   y: -250,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img3",
     scrub: true,
@@ -257,6 +267,7 @@ gsap.to(".img4", {
   y: -170,
   duration: 3,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img4",
     scrub: true,
@@ -268,6 +279,7 @@ gsap.to(".bubble4", {
   y: -50,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".bubble4",
     scrub: true,
@@ -280,6 +292,7 @@ gsap.to(".img5", {
   y: -140,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img5",
     scrub: true,
@@ -292,6 +305,7 @@ gsap.to(".img6", {
   y: -90,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img6",
     scrub: true,
@@ -303,6 +317,7 @@ gsap.to(".img7", {
   y: -150,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img7",
     scrub: true,
@@ -314,6 +329,7 @@ gsap.to(".bubble5", {
   y: -10,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".bubble5",
     scrub: true,
@@ -325,6 +341,7 @@ gsap.to(".img8", {
   y: -70,
   duration: 1,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".img8",
     scrub: true,
@@ -337,6 +354,7 @@ gsap.to(".bubble6", {
   y: -210,
   duration: 3,
   opacity: 1,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".bubble6",
     scrub: true,
