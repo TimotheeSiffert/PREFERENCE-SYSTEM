@@ -19,7 +19,6 @@ function showLoading() {
     hideTimeout = null;
   }
   loadingWrapper.style.display = "";
-  // ensure layout applied before changing opacity
   requestAnimationFrame(() => {
     loadingWrapper.style.opacity = "1";
     loadingWrapper.style.pointerEvents = "";
@@ -34,17 +33,15 @@ function hideLoading() {
   }
   loadingWrapper.style.opacity = "0";
   loadingWrapper.style.pointerEvents = "none";
-  // delay setting display none to avoid flashes while scrub animates opacity
   hideTimeout = setTimeout(() => {
     if (loadingWrapper && loadingWrapper.style.opacity === "0")
       loadingWrapper.style.display = "none";
-  }, 500); // 0.5s delay
+  }, 500);
 }
 
 function showDeleteMessage() {
   if (!deleteMessage) return;
   deleteMessage.style.display = "";
-  // ensure layout applied before changing opacity
   requestAnimationFrame(() => {
     deleteMessage.style.opacity = "1";
   });
@@ -53,11 +50,10 @@ function showDeleteMessage() {
 function hideDeleteMessage() {
   if (!deleteMessage) return;
   deleteMessage.style.opacity = "0.001";
-  // delay setting display none
   setTimeout(() => {
     if (deleteMessage && deleteMessage.style.opacity === "0")
       deleteMessage.style.display = "none";
-  }, 200); // 0.2s delay
+  }, 200);
 }
 
 hideLoading();
@@ -80,7 +76,6 @@ gsap.fromTo(
         const el = document.querySelector(".pourcentage");
         if (el) el.textContent = `${percent}%`;
 
-        // show while between start and end, hide at the very start or at the end
         if (self.progress > 0 && self.progress < 1) {
           showLoading();
         } else {
@@ -101,9 +96,6 @@ gsap.fromTo(
   }
 );
 
-// start hidden before trigger
-
-// Separate ScrollTrigger for .delete-message
 ScrollTrigger.create({
   trigger: "#trigger2",
   start: "center bottom",
@@ -375,13 +367,36 @@ gsap.to(".bubble-alone-img", {
   },
 });
 
-gsap.to(".book-img", {
+gsap.from(".book-img", {
   duration: 1,
-  opacity: 1,
+  x: -800,
+  opacity: 0,
   scrollTrigger: {
     trigger: ".book-img",
     scrub: true,
-    start: "center bottom",
+    start: "top bottom",
+    end: "center center",
+  },
+});
+gsap.from(".book-name", {
+  duration: 1,
+  x: -800,
+  opacity: 0,
+  scrollTrigger: {
+    trigger: ".book-img",
+    scrub: true,
+    start: "top bottom",
+    end: "center center",
+  },
+});
+gsap.from(".book-text-content", {
+  duration: 1,
+  x: 800,
+  opacity: 0,
+  scrollTrigger: {
+    trigger: ".book-img",
+    scrub: true,
+    start: "top bottom",
     end: "center center",
   },
 });

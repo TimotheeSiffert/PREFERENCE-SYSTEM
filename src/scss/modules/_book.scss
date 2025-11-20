@@ -12,6 +12,7 @@
   line-height: 90.688%;
   letter-spacing: -1.85px;
   margin-bottom: 59px;
+  text-transform: uppercase;
 }
 
 .date {
@@ -34,7 +35,7 @@
   color: var(--black);
   font-family: Coolvetica;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 28px;
 }
 
@@ -42,7 +43,7 @@
   color: var(--black);
   font-family: Coolvetica;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .CTA-book {
@@ -76,4 +77,8 @@
   box-shadow: 0 6px 0 0 #000;
   cursor: pointer;
   transform: translateY(-7px);
+}
+
+.book-img {
+  opacity: 1;
 }
